@@ -13,18 +13,17 @@
   <label id="rolutionLabel" style="display: none">SMALL</label>
   <section id="imgproc">
     <div id="message"></div>
-    <input id="inputFile" type="file" accept="video/mp4" />
+    <input id="inputFile" type="files" accept="image/png" multiple/>
   </section>
   <section id="secVideo">
-    <div style="display: none">
-      <video id="videoSrc" width="480" height="320" controls>
-        Your browser does not support the video tag.
-      </video>
+    <div>
+      <img id="imageSrc" width="480" height="320">
+      </img>
     </div>
     <canvas id="videoProcessed" width="480" height="320">
     </canvas>
   </section>
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="newmain.js"></script>
   <script async type="text/javascript" src="detectorsz_core.js"></script>
 </body>
 
